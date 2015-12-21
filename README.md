@@ -19,3 +19,6 @@ add:函数的备注添加了全部
 修改：调试好了认证函数的debug
 
 author：write_1
+
+
+author: cm
