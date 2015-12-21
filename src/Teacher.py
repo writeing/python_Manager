@@ -7,11 +7,12 @@ Created on 2015-12-3
 
 from student import Student
 
+
 class Teacher(object):
     '''
     classdocs
     '''
-    stu  = dict()
+    stu  = dict()		#忘了
     Classed = set()
     def __init__(self, name,age,sex,posi):
         self.name = name
@@ -21,7 +22,9 @@ class Teacher(object):
         '''
         Constructor
         '''
+	# 添加老师的班级，因为一个老师可以带多个班级
     def setClass(self,Class):
         self.Classed.add(Class)
+		
     def getClass(self):
         return self.Classed
